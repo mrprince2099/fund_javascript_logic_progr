@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* O que sabemos sobre formatação de Texto
+    - cor (color:)
+    - tipos de fonte (fonte-family:)
+- tamanho de fonte (font-size:) 
+- margem de texto (margin:) 
+-espaçamento (padding:) */
+
+:root {
+    --corprimaria: #9d1016;
+    --corsecundaria: #8B00BC;
+    --cordedestaque: #5FFBF1;
+    --cordetexto: #120461e1;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    height: 100vh;
+    background-color: #008b8b;
+font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+body {
+    background-image: linear-gradient(to top, var(--corprimaria), var(--corsecundaria));
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+    color: var(--cordetexto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+h1{
+    text-align: right;
+    padding: 0.9em;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+    padding: 0.3em;
+    text-transform: uppercase;
+}
+
+
+header {
+    background-color: var(--corprimaria);
+    height: 10vh;
+    margin: auto;
+    text-align: center;
+}
+
+menu {
+    background-color: var(--corsecundaria);
+    height: 8vh;
+    color: #120461e1;
+    text-align: center;
+    margin: auto;
+    padding: 0.5;
+}
+
+li {
+    display: inline-block;
+}
+
+section {
+    background-color: var(--cordedestaque);
+    height: auto;
+}
+
+footer {
+    background-color: var(--corprimaria);
+    height: 5vh;
+    text-align: center;
+    margin: auto;
+    padding: 0.5;
+}
+
+button {
+    color: #5f9ea0;
+    background-color: #ff69b4;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+img{
+    border-radius: 8px;
+}
+
+.image{
+      
+}
